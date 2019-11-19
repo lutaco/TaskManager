@@ -1,0 +1,43 @@
+.page-header {
+    background-color: dodgerblue !important;
+}
+
+.center {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.task-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(372px, 1fr));
+    grid-gap: 24px;
+    margin: 26px 0 0;
+}
+
+.top-bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar-title {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.button {
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.button:hover {
+    color: #f2f2f2;
+}

@@ -1,0 +1,55 @@
+.modal-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-window {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 0 0 200px 2000px rgba(0,0,0,0.12);
+    background-color: white;
+    width: 300px;
+}
+.modal-window-title {
+    text-align: center;
+    line-height: 18px;
+    color: dodgerblue;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.modal-window-buttons {
+    margin-top: 30px;
+    justify-content: flex-end;
+    display: flex;
+}
+.modal-window-button {
+    height: 18px !important;
+    width: auto !important;
+    font-size: 14px !important;
+    color: dodgerblue !important;
+    margin-left: 20px;
+}
+
+
+.input-line {
+    color: dimgray;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.5) !important;
+}
+.input-line:focus {
+    border-bottom: 2px solid dodgerblue !important;
+}
+.input-line::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}

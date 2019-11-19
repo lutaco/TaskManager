@@ -1,0 +1,9 @@
+.task {
+    padding-bottom: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: auto;
+    font-weight: 300;
+    color: dimgray;
+    font-family: "Segoe UI", SegoeUI, "Segoe WP", Tahoma, Arial, sans-serif;
+}
